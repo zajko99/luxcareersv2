@@ -16,16 +16,16 @@
   <h2 class="text-center mt-2 mb-4">About US</h2>
   <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis enim totam, placeat provident fugit, distinctio officiis dignissimos tempora laudantium minus unde libero error adipisci explicabo impedit. Velit assumenda quo facere. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus cupiditate quibusdam, assumenda labore consequatur consequuntur, molestias totam fugiat quas eum deserunt aliquid soluta inventore omnis perferendis reprehenderit ducimus, est repellendus.</p>
   <h2 class="text-center mt-2 mb-4">Open listings</h2>
-  <p>
+  
       {%for job in jobs %}
-      <div> </div>
+      {% include 'jobitem.html'%}
       {% endfor %}
-  </p>
+  
 </div>
 <div class="text-center">
   <button type="button" id="contactus" class='btn btn-primary btn-lg'>Contact us</button>
  
-  <footer class="mt-4"><a >Zlatko 2024 Copyright</a></footer>
+  <footer class="mt-4"><a >Zlatko Cero 2024 Copyright</a></footer>
    </div>
 </body>
 </html>
